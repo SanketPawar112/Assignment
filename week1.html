@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fullstack Mern Course</title>
+    <style>
+        #image0, #caption{
+            align-content: center;
+            height: 200px;
+            width: 200px;
+        }
+        #para1{
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            line-height: normal;
+        }
+        #para2{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: justify;
+            line-height: normal;
+        }
+        #para3{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: right;
+            line-height: normal;
+        }
+        #para4{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: left;
+            line-height: normal;
+        }
+        .styled-button {
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background-color: purple;
+            border: 2px solid black;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.5s, transform 0.2s;
+        }
+        .styled-button:hover {
+            background-color: red;
+            transform: scale(1.25);
+        }
+        .styled-button:active {
+            transform: scale(0.98);
+        }
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input {
+            padding: 8px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<h1>Fullstack Mern And MongoDb Course</h1>
+<body>
+    <p id="para1">This is the starting assessment of the fullstack mern course. </p>
+    
+    <p id="para2">This course will help me to learn all about HTML, CSS, Javascript, React, MongoDb, etc.</p>
+    
+    <img src="fullstack0.webp" alt="Fullstack" id="image0">
+    
+    <figcaption id="caption">Img - Fullstack Component</figcaption>
+    
+    <p id="para3">The course begins with a strong foundation in JavaScript and ES6 concepts, ensuring that students have the necessary programming skills before diving into the MERN stack. It then moves on to frontend development with React.js, covering essential topics like state management, component lifecycle, React Hooks, and UI design principles. Hands-on exercises and projects help learners gain practical experience in building interactive and scalable user interfaces.</p>
+    
+    <p id="para4">On the backend, students will learn to work with Node.js and Express.js to create RESTful APIs, handle user authentication, and integrate MongoDB for efficient data storage. The course also covers advanced topics such as JWT authentication, third-party API integration, and cloud deployment using platforms like Heroku and AWS. By the end of the course, students will have a fully functional full-stack application in their portfolio, ready to showcase their expertise to potential employers.</p>
+    
+    <button class="button">Click Me</button>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Reg. No.</th>
+            <th>Branch</th>
+        </tr>
+        <tr>
+            <td>Ted</td>
+            <td>31</td>
+            <td>New York</td>
+        </tr>
+        <tr>
+            <td>Barney</td>
+            <td>30</td>
+            <td>Canada</td>
+        </tr>
+        <tr>
+            <td>Robin</td>
+            <td>28</td>
+            <td>LA</td>
+        </tr>
+    </table>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="Reg. No.">Reg. No.:</label>
+        <input type="text" id="Reg. No." name="Reg. No." placeholder="Enter your Reg. No." required>
+
+        <label for="Branch">Branch:</label>
+        <input type="text" id="Branch" name="Branch" placeholder="Enter your Branch" required>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
