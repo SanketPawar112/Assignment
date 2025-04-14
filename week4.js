@@ -74,7 +74,7 @@ function CustomButton() {
   );
 }
 
-// 5. LoginForm Component
+// 5. LoginForm Component.
 function LoginForm() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
